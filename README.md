@@ -1,6 +1,6 @@
 # MI Visualization Coding Challenge
 
-This web application was written for [mi-code-challenge](https://github.com/door2door-io/mi-code-challenge).
+This web application was written for [mi-code-challenge](https://github.com/door2door-io/mi-code-challenge). Don't forget to checkout [live demo](http://207.154.207.152:3000/).
 
 ## **Modifications on Simulator**
 
