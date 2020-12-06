@@ -1,0 +1,2 @@
+include mi_service/seed_data.sql
+global-exclude *.pyc
