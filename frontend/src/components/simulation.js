@@ -200,7 +200,7 @@ export class Simulation extends React.Component {
             <Container id="Simulation">
                 <Container id="SimulationParameters" fluid>
                     <Row id="CityName">
-                    <h1>Berlin</h1>
+                    <h3>Berlin</h3>
                     </Row>
                     <Row id="CityInformation">
                         <Col id="min_longitude" > { this.state.cityInformation["min_longitude"] }  </Col>
@@ -214,7 +214,7 @@ export class Simulation extends React.Component {
                         </Col>                  
                     </Row>
                 </Container>
-                <h1>Most Popular Pickup Points</h1>
+                <h3>Most Popular Pickup Points</h3>
                 <MapContainer id="MostPopularPickupPoints" center={[52.539883126970174, 13.401767174694255]} zoom={11} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -222,7 +222,8 @@ export class Simulation extends React.Component {
                 />
                 <GeoJSON key={this.state.popularPickups_key} data={this.state.popularPickups} />
                 </MapContainer>
-                <h1>Most Popular Dropoff Points</h1>
+                
+                <h3>Most Popular Dropoff Points</h3>
                 <MapContainer id="MostPopularDropoffPoints" center={[52.539883126970174, 13.401767174694255]} zoom={11} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
